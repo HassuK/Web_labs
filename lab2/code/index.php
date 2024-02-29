@@ -28,5 +28,16 @@ echo $days_per_language;
 echo "\n";*/
 
 //task 12, power (возведение в степень)
-echo 8**2;  //operator ** mean, that first number to the power of second
+/*echo 8**2;  //operator ** mean, that first number to the power of second
+echo "\n"; */
+
+//task13, Assignment Operators. Тут же настолько всё пока очевидно, всё было, что и комментировать нечего...
+$my_num=7;
+$answer=$my_num;
+$answer+=2;
+$answer*=2;
+$answer-=2;
+$answer/=2;
+$answer-=$my_num;
+echo $answer;
 echo "\n";
