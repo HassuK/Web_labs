@@ -43,7 +43,7 @@ echo $answer;
 echo "\n";*/
 
 //task 14, Math funcs
-$a=10;
+/*$a=10;
 $b=3;
 echo $a%$b;
 echo "\n";
@@ -152,3 +152,13 @@ for ($i=0; $i<count($arr);$i++){
 echo $quantity,"\n";
 
 
+*/
+
+//task 15. Funcs
+function printStringReturnNumber()  //не совсем понял сам таск.... но для примера, что понимание функций есть - пойдет наверно
+{
+echo "Hello world\n";
+return rand(1,100);
+}
+$my_num=printStringReturnNumber();
+echo $my_num, "\n";
