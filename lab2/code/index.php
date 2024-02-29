@@ -20,9 +20,13 @@ echo $last_month-$this_month;
 echo "\n"; */
 
 //task 11, multiplication and division
-$num_languages=4;
+/*$num_languages=4;
 $months=11;
 $days=$months*16;
 $days_per_language=$days/$num_languages;
 echo $days_per_language;
+echo "\n";*/
+
+//task 12, power (возведение в степень)
+echo 8**2;  //operator ** mean, that first number to the power of second
 echo "\n";
