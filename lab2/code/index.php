@@ -138,6 +138,17 @@ for ($i=0;$i<count($arr);$i++){
 }
 echo "\n";
 
-
+$arr=array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);         //простой алгоритм... всё прозрачно
+$max_sum=10;
+$arr_sum=0;
+$quantity=0;
+for ($i=0; $i<count($arr);$i++){
+    $arr_sum+=$arr[$i];
+    $quantity++;
+    if ($arr_sum>$max_sum){
+        break;
+    }
+}
+echo $quantity,"\n";
 
 
