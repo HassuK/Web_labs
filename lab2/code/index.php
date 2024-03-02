@@ -485,3 +485,4 @@ $order = &$very_bad_unclear_name;  //так как мы инициализиро
 $order .= ' and 1 fried chicken leg';
 
 echo "\nYour order is: $very_bad_unclear_name.";
+?>
