@@ -82,7 +82,7 @@ $sqrt = sqrt(379);
 echo round($sqrt), " ", round($sqrt, 1), " ", round($sqrt,2), "\n";  //round - округление до ближайшего
                                                                      //так же можно вывести определенное количество знаков после запятой
 $sqrt = sqrt(587);
-$arr = array('floor' => floor($sqrt), 'ceil' => ceil($sqrt));
+$arr = ['floor' => floor($sqrt), 'ceil' => ceil($sqrt)];
 
 echo $arr['floor'], " ", $arr['ceil'], "\n";  //ceil - округление до большего, floor - до меньшего
 //floor и ceil - ключи. "Вместо" индексов. И индексов здесь нет. Только ключи. То есть обратиться к массиву $arr[0] не сможем
